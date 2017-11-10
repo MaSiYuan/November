@@ -1,7 +1,6 @@
 package vdemo.msy.com.november;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -29,6 +28,13 @@ public class MainActivity extends Activity {
                 showData();
             }
         }, 50);
+
+        findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
     }
 
